@@ -1,4 +1,66 @@
-_pycache_/
+# ==========================
+# Streamlit Secrets
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# Python Cache
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Virtual Environments
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
 .ipynb_checkpoints/
-*.pyc
+
+# ==========================
+# IDE Settings
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# OS Files
+# ==========================
 .DS_Store
+Thumbs.db
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# ==========================
+# Testing & Coverage
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Large Generated Files
+# ==========================
+similarity.pkl
